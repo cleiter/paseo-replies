@@ -4,7 +4,7 @@ A [Paseo](https://paseo.sh) plugin: after each agent turn, a **Replies** pill of
 likely send, written by Claude Haiku, and sends the one you pick. It works in every workspace.
 [`OVERVIEW.md`](OVERVIEW.md) describes what it does; this file covers setup.
 
-![The Replies pill's popover, offering three replies to an agent that asked whether to extend a dark mode toggle](docs/replies.png)
+![A chat where the agent added a dark mode toggle and noted two loose ends; the Replies popover offers to fix either one or to ship the toggle as it is](docs/replies.png)
 
 ## Setup
 
