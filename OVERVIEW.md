@@ -7,3 +7,5 @@ After each turn of an agent, a **Replies · n** pill appears above its composer.
 - **Only when it can send.** The pill is hidden while the agent runs a turn and comes back with new replies after it. Turns that ended before the app opened get none, so opening the app does not ask for every idle agent at once.
 
 The replies are written by Claude Haiku, through the `claude` command on the machine the Paseo daemon runs on, with your own login. The call sees the agent's last message and the start of your message before it, nothing else: it has no tools, MCP servers, slash commands, settings or saved session, and runs in the temporary directory, so no project's `CLAUDE.md` is read. Each finished turn costs one small Haiku request. A few seconds pass between the end of a turn and the pill.
+
+It needs Paseo 0.13.2 or newer, and the Claude Code CLI (`claude`) installed and logged in on the machine the Paseo daemon runs on.
