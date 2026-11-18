@@ -1,6 +1,6 @@
 {
   "id": "paseo-replies",
-  "media": [],
+  "media": ["docs/replies.png"],
   "requirements": {
     "paseo": ">=0.13.2"
   },
